@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { SaludIntegrativaApp } from './SaludIntegrativaApp';
+import { SaludIntegrativaApp } from './components/SaludIntegrativaApp';
+import './css/home.css';
 
 ReactDOM.render(
 
