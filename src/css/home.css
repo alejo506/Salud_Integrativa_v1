@@ -1,9 +1,25 @@
 .bg-navBar{
-    background-color: #38726C;
+    background-color: #0098d9
+	;
 }
 
+.navbar-brand img{
+	height: 70px;
+}
+
+
+
+/* FormContact */
+.butt-center{
+	display: flex;
+	align-items: center;
+  }
+/* FormContact */
+
+
+
 .home{
-	margin-top: 6.4rem;
+	margin-top: 4.5rem;
 }
 
 .home .carousel-item{
@@ -141,3 +157,47 @@
   	font-size: 22px;
   }
 }
+
+/* Contact Form */
+.email-contact-container{
+    margin-top: 15%;
+}
+.email-form-1{
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+}
+.email-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.contact-form-2{
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+    background: #0098d9;
+}
+.contact-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.-email-contact-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.email-form-1 .btnSubmit{
+    color: #fff;
+    background-color: #043f7e;
+}
+
+.email_text{
+font-size: 0.6rem;
+}
+/* Contact Form */

@@ -1,6 +1,7 @@
 // import React from 'react'
 
 import { Carousel_Home } from "./Carousel_Home";
+import { FormContact } from "./FormContact";
 import { NavBar } from "./NavBar";
 
 
@@ -25,7 +26,6 @@ export const SaludIntegrativaApp = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              {/* <img src="images/avatar.png" width="260" height="auto" alt="Avatar de Tomas Mendez" class="img-fluid rounded-circle mb-4"> */}
               <p className="h2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis odio amet nulla ad nobis minima doloribus inventore, aspernatur distinctio dicta ipsam fugit suscipit ullam architecto eos molestias placeat rerum facere.</p>
               <p className="h4 font-italic">- Alejandro Corrales</p>
             </div>
@@ -86,6 +86,9 @@ export const SaludIntegrativaApp = () => {
           </div>
         </div>
       </section>
+
+
+      <FormContact/>
 
       {/* SECCION PIE DE PÁGINA  */}
       <footer className="pie-de-pagina text-center text-md-right bg-dark text-white">

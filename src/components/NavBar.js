@@ -1,15 +1,17 @@
 import React from 'react'
-import { SI1 } from './iconsComponents/SI1';
 
 export const NavBar = () => {
   return (
     <div>
       <nav className="navbar navbar-light bg-navBar fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand ps-5" href="#">
-            <SI1 />
+          <a className="navbar-brand nav-img ps-5 m-0" href="#">
+              <img src= {require('../assets/Logo_Imagen_Interna_Medio.png')}></img>
           </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <a className="navbar-brand nav-letters ps-5" href="#">
+              <img src= {require('../assets/Logo_Letras.png')}></img>
+          </a>
+          <button className="navbar-toggler me-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
