@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22a4bca6.css",
+    "main.js": "/static/js/main.8b6b24ec.js",
+    "static/media/Coaching.jpg": "/static/media/Coaching.ed941a50fd6957555f25.jpg",
+    "static/media/Nutricion.jpg": "/static/media/Nutricion.b53b96d62214a4c705eb.jpg",
+    "static/media/Psicologia.jpg": "/static/media/Psicologia.f0d00f47659f07851f51.jpg",
+    "static/media/Mindfulness.jpg": "/static/media/Mindfulness.a6ec8f621c9ab42f79e3.jpg",
+    "static/media/Enfermeria.jpg": "/static/media/Enfermeria.ebbd5573e90506fe43a2.jpg",
+    "static/media/Terapia_Fisica.jpg": "/static/media/Terapia_Fisica.4b24fd9498aa80758f53.jpg",
+    "static/media/Logo_Imagen_Interna_Medio.png": "/static/media/Logo_Imagen_Interna_Medio.74003ec4eba162896ac4.png",
+    "static/media/Logo_Letras.png": "/static/media/Logo_Letras.640e7a12bc8f6ecc2414.png",
+    "index.html": "/index.html",
+    "main.22a4bca6.css.map": "/static/css/main.22a4bca6.css.map",
+    "main.8b6b24ec.js.map": "/static/js/main.8b6b24ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22a4bca6.css",
+    "static/js/main.8b6b24ec.js"
+  ]
+}
